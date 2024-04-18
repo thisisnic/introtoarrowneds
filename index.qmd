@@ -70,10 +70,6 @@ download.file(
 -   if you don't have the data yet, download it now - next section talking about arrow
 :::
 
-## Backup option - Posit Cloud & Tiny Dataset
-
-<br> <https://posit.cloud/spaces/463702/content/7918787>
-
 
 # Part 1 - Arrow
 
