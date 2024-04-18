@@ -2,9 +2,9 @@
 
 by Steph Hazlitt & Nic Crane
 
-This repository contains materials for the **Introduction to Arrow in R** \~2-hour workshop delivered to RLadies Ottawa (10 April 2024).
+This repository contains materials for the **Introduction to Arrow in R** \~90 minutes workshop delivered to NEDS (18th July 2024).
 
-Slides: <https://tinyurl.com/arrowrladiesottowa/>
+Slides: <https://tinyurl.com/introtoarrowneds/>
 
 ### Workshop Overview
 
@@ -20,7 +20,7 @@ Set up a new project in RStudio using this workshop, so you have a copy of the s
 
 <img src="images/newproj.png" width="447"/>
 
-Repository URL: <https://github.com/thisisnic/introtoarrowworkshoprladiesottowa>
+Repository URL: <https://github.com/thisisnic/introtoarrowneds>
 
 #### 2. Install Required Packages
 

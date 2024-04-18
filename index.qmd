@@ -6,7 +6,7 @@ format:
   revealjs: 
     theme: default
     slide-number: true  
-footer: "[🔗 https://github.com/thisisnic/introtoarrowrladiesottowa](https://github.com/thisisnic/introtoarrowrladiesottowa)"
+footer: "[🔗 https://github.com/thisisnic/introtoarrowneds](https://github.com/thisisnic/introtoarrowneds)"
 engine: knitr
 editor: source
 ---
@@ -19,10 +19,9 @@ NEDs Workshop (18th July 2024)
 
 ## Introductions
 
--   Steph Hazlitt
 -   Nic Crane
 
-Arrow contributors!
+Arrow contributor!
 
 ::: notes
 Have participants introduce themselves in the chat
@@ -38,7 +37,7 @@ Today we're going to cover:
 
 ## Workshop format
 
--   Slides available at <https://tinyurl.com/arrowrladiesottowa>
+-   Slides available at <https://tinyurl.com/introtoarrowneds>
 -   Follow-along coding
 -   Time to ask questions
 
@@ -50,7 +49,7 @@ Today we're going to cover:
 
 ![](images/newproj.png)
 
-Repository URL: <https://github.com/thisisnic/introtoarrowrladiesottowa>
+Repository URL: <https://github.com/thisisnic/introtoarrowneds>
 
 ## Dataset to follow along with
 
