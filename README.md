@@ -42,6 +42,7 @@ This is the data we will use in the workshop. It's a good-sized, single CSV file
 
 ```{r}
 options(timeout = 1800)
+dir.create("data")
 download.file(
   url = "https://r4ds.s3.us-west-2.amazonaws.com/seattle-library-checkouts.csv",
   destfile = "./data/seattle-library-checkouts.csv"
@@ -54,6 +55,7 @@ If you don't have time or disk space to download the 9Gb dataset (and still have
 
 ```{r}
 options(timeout = 1800)
+dir.create("data")
 download.file(
   url = "https://github.com/posit-conf-2023/arrow/releases/download/v0.1.0/seattle-library-checkouts-tiny.csv",
   destfile = "./data/seattle-library-checkouts-tiny.csv"
