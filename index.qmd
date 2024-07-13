@@ -63,6 +63,7 @@ curl::multi_download(
   resume = TRUE
 )
 ```
+If your download stops partway through, you can stop and resume from the same place.
 
 ::: notes
 -   dataset from R For Data Science
@@ -542,6 +543,7 @@ How long does it take to calculate the number of books checked out in each month
 ```{r}
 #| label: seattle-single-csv-dplyr-timed
 open_dataset(sources = "./data/seattle-library-checkouts.csv",
+             col_types = schema(ISBN = string()),
              format = "csv") |>
   filter(CheckoutYear == 2021, endsWith(MaterialType, "BOOK")) |>
   group_by(CheckoutMonth) |>
