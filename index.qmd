@@ -73,6 +73,19 @@ If your download stops partway through, you can stop and resume from the same pl
 :::
 
 
+## Dataset to follow along with - tiny version
+
+```{r}
+#| label: get-data-tiny
+#| eval: false
+options(timeout = 18000)
+curl::multi_download(
+  "https://github.com/posit-conf-2023/arrow/releases/download/v0.1.0/seattle-library-checkouts-tiny.csv",
+  "data/seattle-library-checkouts-tiny.csv",
+  resume = TRUE
+)
+```
+
 # Part 1 - Arrow
 
 ::: notes
