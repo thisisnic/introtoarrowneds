@@ -44,7 +44,6 @@ Today we're going to cover:
 ::: notes
 -   feel free to ask questions as we go along!
 :::
-
 ## Getting set up
 
 ![](images/newproj.png)
@@ -629,3 +628,27 @@ open_dataset("./data/seattle-library-checkouts",
 Currently being written - preview available online soon!
 :::
 :::
+
+## And what about Python??
+
+Some resources for PyArrow users (thanks to Alenka Frim for adding this content!):
+
+PyArrow resources:
+
+* <https://arrow.apache.org/docs/python/index.html>
+* <https://arrow.apache.org/cookbook/py/>
+
+## More granular PyArrow resources 1
+
+* Parquet read and write <https://arrow.apache.org/docs/python/parquet.html>
+* Reading and Writing CSV files: <https://arrow.apache.org/docs/python/csv.html>
+* Specifying types when reading csv: <https://arrow.apache.org/docs/python/csv.html#customized-conversion>
+* Or Tables: <https://arrow.apache.org/docs/python/data.html#tables>
+
+## More granular PyArrow resources 2
+
+* All about Datasets: <https://arrow.apache.org/docs/python/dataset.html#tabular-datasets>
+* Dataset API docs: <https://arrow.apache.org/docs/python/generated/pyarrow.dataset.Dataset.html#pyarrow.dataset.Dataset>
+* Reading partitioned data <https://arrow.apache.org/docs/python/dataset.html#reading-partitioned-data>
+    
+    
